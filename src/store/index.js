@@ -6,4 +6,4 @@ const store = {
 
 export default store;
 
-window.getStore = (name) => store[name] || store;;
+window.getStore = (name) => store[name] || store;
