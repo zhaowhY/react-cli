@@ -164,6 +164,17 @@ module.exports = {
   })
 };
 
+// config.proxy = [
+//   {
+//     context: ['/api'],
+//     target: 'http://39.105.108.226:7002',
+//     changeOrigin: true,
+//     pathRewrite: {
+//       '^/api': '',
+//     }
+//   },
+// ];
+
 // 如果需要打包工具函数库，可以参考下面代码
 // (config) => {
 // 1.sdk配置
